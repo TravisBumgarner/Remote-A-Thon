@@ -15,6 +15,7 @@ module.exports = env => {
         resolve: {
             alias: {
                 shared: path.resolve(__dirname, 'src/shared/'),
+                theme: path.resolve(__dirname, 'src/theme.tsx'),
             },
             extensions: ['.ts', '.tsx', '.js']
         },

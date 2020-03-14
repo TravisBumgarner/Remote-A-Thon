@@ -6,7 +6,7 @@ const Contact = () => {
     return <PageWrapper>
         <Header size="large">Contact</Header>
         <Text>
-            You can connect on Twitter <a href="https://twitter.com/travis_the_makr">here</a> or fill out the form below.
+            You can connect on Twitter <a target="_blank" href="https://twitter.com/travis_the_makr">here</a> or fill out the form below.
         </Text>
         <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdhpE6i0LVbYtnCzf06OttT1_lsqeYqZ88fGG3IF9cbEcFV7w/viewform?embedded=true"

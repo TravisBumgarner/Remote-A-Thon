@@ -6,7 +6,7 @@ import styled, { css } from 'styled-components'
 const LargeHeader = styled.h2`
     text-transform: uppercase;
     font-weight: 700;
-    margin: 1em 0 0.5em 0;
+    margin: 0.25em 0 0.5em 0;
     font-size: 2em;
 `
 

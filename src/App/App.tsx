@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import { Title, Navigation, Home, Contact, GetInvolved, Questions } from './components'
-import { GlobalStyle } from './theme'
+import { GlobalStyle } from 'theme'
 
 const AppWrapper = styled.div`
     display: flex;

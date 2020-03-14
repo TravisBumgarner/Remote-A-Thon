@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const Menu = styled.ul`
     display: flex;
+    margin: 0.5em 0;
 `
 
 const MenuItem = styled.li`
