@@ -13,7 +13,7 @@ const LargeHeader = styled.h1`
 
 const Title = () => {
     return <div>
-        <LargeHeader>Remote-A-Thon</LargeHeader>
+        <LargeHeader>Let's Pair Online</LargeHeader>
         <Text>A remote hackathon focused on addressing issues that have risen due to Covid-19.</Text>
     </div>
 }

@@ -11,7 +11,7 @@ const Home = () => {
                 <Header size="large">Details</Header>
 
                 <Header size="medium">Why?</Header>
-                <Text>There's a lot going on in the world right now and many of us are facing challeneges we've never experienced before. Employees and students are going completely remote. Social events are being canceled. Medical centers are being overwhelmed. These events are the motivation for this remote-a-thon. Many of us find ourselves stranded in our homes with diverse skillsets, hoping to help, but unsure of how to do so.</Text>
+                <Text>There's a lot going on in the world right now and many of us are facing challeneges we've never experienced before. Employees and students are going completely remote. Social events are being canceled. Medical centers are being overwhelmed. These events are the motivation for Let's Pair Online. Many of us find ourselves stranded in our homes with diverse skillsets, hoping to help, but unsure of how to do so.</Text>
 
                 <Header size="medium">When?</Header>
                 <Text>Tentatively March 27th, 2020 to March 29th, 2020.</Text>
