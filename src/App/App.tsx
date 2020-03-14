@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import { Title, Navigation, Home, Contact, GetInvolved, Questions } from './components'
+import { Title, Navigation, Home, Contact, GetInvolved, Questions, Error } from './components'
 import { GlobalStyle } from 'theme'
 
 const AppWrapper = styled.div`
@@ -24,6 +24,7 @@ const App = () => {
                     <Route path="/contact" component={Contact} />
                     <Route path="/getinvolved" component={GetInvolved} />
                     <Route path="/questions" component={Questions} />
+                    <Route component={Error} />
                 </Switch>
             </BrowserRouter>
         </AppWrapper>
