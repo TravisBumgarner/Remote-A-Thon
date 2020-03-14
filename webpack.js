@@ -9,7 +9,7 @@ module.exports = env => {
         },
         output: {
             filename: '[name]-[hash].bundle.js',
-            path: path.resolve(__dirname, 'dist'),
+            path: path.resolve(__dirname, 'public'),
             publicPath: '/'
         },
         resolve: {
@@ -28,7 +28,7 @@ module.exports = env => {
             ]
         },
         devServer: {
-            contentBase: './dist',
+            contentBase: './public',
             port: 3000,
             historyApiFallback: true,
             publicPath: '/'

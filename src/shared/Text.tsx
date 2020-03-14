@@ -12,8 +12,8 @@ type Props = {
     children: React.ReactNode
 }
 
-const Header = ({ children }: Props) => {
+const Text = ({ children }: Props) => {
     return <NormalText>{children}</NormalText>
 }
 
-export default Header
+export default Text

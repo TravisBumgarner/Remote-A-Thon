@@ -1,13 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import {Header, Text} from 'shared'
+import {Header, Text, PageWrapper} from 'shared'
 
 const questions = [
-    {
-        question: "Foo",
-        answer:  "Bar."
-    }
 ]
 
 const Questions = () => {
@@ -19,10 +15,12 @@ const Questions = () => {
     ))
 
     return (
-        <div>
+        <PageWrapper>
             <Header size="large">Frequently Asked Questions</Header>
+            <Text>No questions yet. Feel free to visit our contact page to send a question.</Text>
+            
             {Questions}
-        </div>
+        </PageWrapper>
     )
 }
 

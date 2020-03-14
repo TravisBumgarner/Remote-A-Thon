@@ -1,4 +1,9 @@
+- [x] Write boilerplate
+- [ ] Setup Firebase hosting
+- [ ] Configure DNS
 - [ ] Logo
+- [ ] Add some contents
+- [ ] 
 - [ ] Contact Forms
     - [ ] Sponsors
     - [ ] Speakers
