@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = env => {
     return {
         entry: {
-            app: './src/ui/index.tsx'
+            app: './src/index.tsx'
         },
         output: {
             filename: '[name]-[hash].bundle.js',
@@ -13,6 +13,9 @@ module.exports = env => {
             publicPath: '/'
         },
         resolve: {
+            alias: {
+                shared: path.resolve(__dirname, 'src/shared/'),
+            },
             extensions: ['.ts', '.tsx', '.js']
         },
         module: {
