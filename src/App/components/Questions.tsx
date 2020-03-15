@@ -1,9 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
-import {Header, Text, PageWrapper} from 'shared'
+import {Header, Text, PageWrapper, Section} from 'shared'
 
 const questions = [
+    {
+        question: "Will there be prizes?",
+        answer: "The complete answer is to be determined. Travis Bumgarner will be donating $250 towards the prize pool. Click on the Sponsor link above to contribute!"
+    }
 ]
 
 const Questions = () => {
@@ -16,10 +21,15 @@ const Questions = () => {
 
     return (
         <PageWrapper>
-            <Header size="large">Frequently Asked Questions</Header>
-            <Text>No questions yet. Feel free to visit our contact page to send a question.</Text>
-            
+            <Section>
+            <Header size="large">Don't see an answer your question?</Header>
+            <Text><Link to="/sponsor">Click here to submit a question.</Link></Text>
+            </Section>
+
+            <Section>
+            <Header size="large">FAQ</Header>
             {Questions}
+            </Section>
         </PageWrapper>
     )
 }

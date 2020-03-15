@@ -2,16 +2,22 @@ import Title from './Title'
 import Navigation from './Navigation'
 import Home from './Home'
 import Contact from './Contact'
-import GetInvolved from './GetInvolved'
+import Participate from './Participate'
 import Questions from './Questions'
 import Error from './Error'
+import About from './About'
+import Sponsor from './Sponsor'
+import Problem from './Problem'
 
 export {
     Title,
     Navigation,
     Home,
     Contact,
-    GetInvolved,
+    Participate,
     Questions,
-    Error
+    Error,
+    About,
+    Sponsor,
+    Problem
 }

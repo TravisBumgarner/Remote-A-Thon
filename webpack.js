@@ -16,6 +16,7 @@ module.exports = env => {
             alias: {
                 shared: path.resolve(__dirname, 'src/shared/'),
                 theme: path.resolve(__dirname, 'src/theme.tsx'),
+                images: path.resolve(__dirname, 'src/images/'),
             },
             extensions: ['.ts', '.tsx', '.js']
         },
@@ -25,6 +26,10 @@ module.exports = env => {
                     test: /\.[jt]s[x]$/,
                     exclude: /node_modules/,
                     loader: 'babel-loader',
+                },
+                {
+                    test: /\.(jpe?g|png|gif|svg)$/i, 
+                    loader: "file-loader"
                 }
             ]
         },

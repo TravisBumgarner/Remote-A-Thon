@@ -16,18 +16,9 @@ const GlobalStyle = createGlobalStyle`
     }
     a {
         color: ${FOREGROUND_COLOR};
-        font-weight: 100;
-        text-decoration: none;
         &:hover{
             color: ${HOVER_COLOR}
         }
-    }
-    ul {
-        margin: 0;
-        padding: 0;
-    }
-    li {
-        display: block;
     }
 `
 
