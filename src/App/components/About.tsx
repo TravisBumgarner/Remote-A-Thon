@@ -15,10 +15,10 @@ const About = () => {
     return (
         <PageWrapper>
             <Section>
-            <Header size="large">Get Involved!</Header>
-            <Text>
-                Interested in becoming an organizer? <Link to="/participate">Click here.</Link>
-            </Text>
+                <Header size="large">Get Involved!</Header>
+                <Text>
+                    Interested in becoming an organizer? <Link to="/participate">Click here.</Link>
+                </Text>
             </Section>
             <Section>
                 <Header size="large">Travis Bumgarner</Header>
@@ -29,13 +29,13 @@ const About = () => {
                 <Text>
                     Links - <a target="_blank" href="https://www.linkedin.com/in/travisbumgarner/">LinkedIn</a>, <a target="_blank" href="https://www.instagram.com/travis_the_maker/">Instagram</a>, <a target="_blank" href="https://www.instagram.com/travis_the_maker/">Blog</a>
                 </Text>
-                <Text>                    
+                <Text>
                     During the day he works as a software engineer in online education. Prior to getting into software engineering, he served as a Peace Corps Volunteer in Panama. Nowadays, he likes to give back to the community in his free time. This has included mentoring with Hack.Diversity, MIT Sandbox, MIT D-Lab, and MIT IDEAS Global Challenge.
                 </Text>
                 <Text>
-                    In his free time he enjoys making (woodworking, circuits, etc.), blogging, photographing, and snowboarding. 
+                    In his free time he enjoys making (woodworking, circuits, etc.), blogging, photographing, and snowboarding.
                 </Text>
-                <div style={{clear: "both"}} />
+                <div style={{ clear: "both" }} />
             </Section>
         </PageWrapper>
     )

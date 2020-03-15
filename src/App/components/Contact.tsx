@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Header, Text, PageWrapper, GoogleForm, Section } from 'shared'
+import { Header, Text, PageWrapper, GoogleForm, Section } from 'shared'
 
 const Contact = () => {
     return <PageWrapper>

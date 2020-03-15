@@ -8,7 +8,7 @@ type Props = {
     height: string
 }
 
-const GoogleForm = styled(({className, children, src}) => {
+const GoogleForm = styled(({ className, children, src }) => {
     return <iframe className={className} src={src}>{children}</iframe>
 })`
     width: 100%;
@@ -16,7 +16,7 @@ const GoogleForm = styled(({className, children, src}) => {
     background-color: transparent;
     min-height: 300px;
     ${
-        ({height}: {height: string}) => `height: ${parseInt(height) || 500}px`}
+    ({ height }: { height: string }) => `height: ${parseInt(height) || 500}px`}
 `
 
 export default GoogleForm

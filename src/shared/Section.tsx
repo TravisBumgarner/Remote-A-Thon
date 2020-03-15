@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled, { css } from 'styled-components'
 
-import {ACCENT_COLOR } from 'theme'
+import { ACCENT_COLOR } from 'theme'
 
 const NormalSection = styled.div`
     border: 2px solid ${ACCENT_COLOR};

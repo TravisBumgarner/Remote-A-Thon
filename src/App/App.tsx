@@ -26,7 +26,7 @@ const AppWrapper = styled.div`
 const App = () => {
     return (
         <AppWrapper>
-        <GlobalStyle />
+            <GlobalStyle />
             <BrowserRouter>
                 <Title />
                 <Navigation />

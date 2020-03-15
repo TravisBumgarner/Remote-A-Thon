@@ -4,12 +4,12 @@
         "baseUrl": ".",
         "paths": {
             "*": [
-              "types/*"
+                "types/*"
             ],
             "shared": [
-              "src/shared"
+                "src/shared"
             ],
-          },
+        },
         "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,

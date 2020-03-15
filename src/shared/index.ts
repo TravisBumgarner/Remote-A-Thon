@@ -9,7 +9,7 @@ export {
     Header,
     Text,
     PageWrapper,
-    Section, 
+    Section,
     List,
     GoogleForm
 }

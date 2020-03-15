@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-import {Header, Text, PageWrapper, Section} from 'shared'
+import { Header, Text, PageWrapper, Section } from 'shared'
 
 const questions = [
     {
@@ -22,13 +22,13 @@ const Questions = () => {
     return (
         <PageWrapper>
             <Section>
-            <Header size="large">Don't see an answer your question?</Header>
-            <Text><Link to="/sponsor">Click here to submit a question.</Link></Text>
+                <Header size="large">Don't see an answer your question?</Header>
+                <Text><Link to="/sponsor">Click here to submit a question.</Link></Text>
             </Section>
 
             <Section>
-            <Header size="large">FAQ</Header>
-            {Questions}
+                <Header size="large">FAQ</Header>
+                {Questions}
             </Section>
         </PageWrapper>
     )
