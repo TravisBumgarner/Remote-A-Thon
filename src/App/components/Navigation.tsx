@@ -113,14 +113,13 @@ const Navigation = () => {
     const MenuItems = <Menu onClick={() => setIsOpen(false)}>
         <MenuItem><NavLink exact activeStyle={activeStyle} to="/">Home</NavLink></MenuItem>
         <MenuItem><NavLink activeStyle={activeStyle} to="/participate">Participate</NavLink></MenuItem>
+        <MenuItem><a target="_blank" href="https://join.slack.com/t/lets-pair-online/shared_invite/zt-cmfomldv-F6mtvfedSVtYwlKusjIRaw"><FaSlack /> Join us On Slack</a></MenuItem>
         <MenuItem><NavLink activeStyle={activeStyle} to="/problem">Submit a Problem</NavLink></MenuItem>
         <MenuItem><NavLink activeStyle={activeStyle} to="/sponsor">Sponsor</NavLink></MenuItem>
         <MenuItem><a target="_blank" href="https://www.gofundme.com/f/let039s-pair-online">Donate</a></MenuItem>
         <MenuItem><NavLink activeStyle={activeStyle} to="/contact">Contact</NavLink></MenuItem>
         <MenuItem><NavLink activeStyle={activeStyle} to="/about">About</NavLink></MenuItem>
         <MenuItem><NavLink activeStyle={activeStyle} to="/questions">FAQ</NavLink></MenuItem>
-        <MenuItem><a target="_blank" href="https://join.slack.com/t/lets-pair-online/shared_invite/zt-cmfomldv-F6mtvfedSVtYwlKusjIRaw"><FaSlack />Slack</a></MenuItem>
-        <MenuItem><a target="_blank" href="https://twitter.com/travis_the_makr"><FaTwitter />Twitter</a></MenuItem>
     </Menu>
     return <div>
         <MenuToggle onClick={() => setIsOpen(!isOpen)} />

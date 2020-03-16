@@ -6,6 +6,10 @@ import { Header, Text, PageWrapper, Section } from 'shared'
 
 const questions = [
     {
+        question: "Do I need to be technical?",
+        answer: "No! You could do anything from building a website to creating a business plan."
+    },
+    {
         question: "Will there be prizes?",
         answer: "The complete answer is to be determined. Travis Bumgarner will be donating $250 towards the prize pool. Click on the Sponsor link or donate above to contribute to the pool!"
     },

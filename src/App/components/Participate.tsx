@@ -9,7 +9,7 @@ const Participate = () => {
             <Text>Fill out this form to stay up to date about hackathon!</Text>
             <GoogleForm
                 src="https://docs.google.com/forms/d/e/1FAIpQLSd-ex1AKKpvWi0FQQcwNXu62WNCgP8_yBNy9EvpnRO2vSxvcQ/viewform?embedded=true"
-                height="1050"
+                height="1150"
             >
                 Loading…
         </GoogleForm>
