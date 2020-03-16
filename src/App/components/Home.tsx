@@ -37,15 +37,19 @@ const Home = () => {
             </Section>
             <Section>
                 <Header size="large">What this Hackathon Isn't</Header>
-                <Text>There are many professionals across the world focused on everything from medical aid to supply chain management. There are also other hackathons doing this as well. Perform a search for "COVID hackathon" and look at all the results. This hackathon is not focused on those issues. As noted by the tracks above, it's about how we maintain daily routines with ourselves and our communities throughout this time.</Text>
+                <Text>There are many professionals across the world focused on everything from medical aid to supply chain management. There are also other hackathons doing this as well. Perform a search for "COVID hackathon" and look at all the results. People are doing amazing work. That said - this hackathon is not focused on those issues. As noted by the tracks above, it's about how we maintain daily routines with ourselves and our communities throughout this time.</Text>
             </Section>
             <Section>
                 <Header size="large">Schedule</Header>
-                <Text>Tentatively March 27th, 2020 to March 29th, 2020.</Text>
+                <Text>Tentatively March 30th, 2020 to April 5th, 2020 with the majority of the work and activities taking place between Friday and Sunday.</Text>
             </Section>
             <Section>
                 <Header size="large">Location</Header>
                 <Text>Remotely distributed throughout the world.</Text>
+            </Section>
+            <Section>
+                <Header size="large">Interested?</Header>
+                <Text><Link to="/participate">Click here to signup!</Link></Text>
             </Section>
             <Section>
                 <Header size="large">Don't see an answer your question?</Header>
