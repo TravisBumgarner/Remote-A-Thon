@@ -29,7 +29,10 @@ const Home = () => {
                 <Header size="medium"> Track 3: Mental Management</Header>
                 <Text>How do we deal with the mental burden of what's going on?</Text>
 
-                <Header size="medium"> Track 4: Alternate Adventure</Header>
+                <Header size="medium"> Track 4: Household Harmony</Header>
+                <Text>Childcare, spousal relationships, and friendships are all up for consideration. How do we come together?</Text>
+
+                <Header size="medium"> Track 5: Alternate Adventure</Header>
                 <Text>Tackle an issue not addressed in the above tracks.</Text>
             </Section>
             <Section>

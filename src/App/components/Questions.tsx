@@ -7,7 +7,7 @@ import { Header, Text, PageWrapper, Section } from 'shared'
 const questions = [
     {
         question: "Will there be prizes?",
-        answer: "The complete answer is to be determined. Travis Bumgarner will be donating $250 towards the prize pool. Click on the Sponsor link above to contribute!"
+        answer: "The complete answer is to be determined. Travis Bumgarner will be donating $250 towards the prize pool. Click on the Sponsor link or donate above to contribute to the pool!"
     }
 ]
 

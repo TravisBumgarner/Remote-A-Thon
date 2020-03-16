@@ -16,10 +16,10 @@ const Sponsor = () => {
         </Section>
         <Section>
             <Header size="large">Sponsor Us</Header>
-            <Text>Interested in contributing? Please fill out this form and we'll be in touch.</Text>
+            <Text>Interested in contributing? Please fill out this form and we'll be in touch or <a href="https://www.gofundme.com/f/let039s-pair-online">click here</a> to donate now.</Text>
             <GoogleForm height="920" src="https://docs.google.com/forms/d/e/1FAIpQLSeLGcm64SiTzglGdOKrddgjqUwTZ0liFkM4UMhq7B93LPVzeQ/viewform?embedded=true">Loading…</GoogleForm>
         </Section>
-    </PageWrapper>
+    </PageWrapper >
 }
 
 export default Sponsor
