@@ -41,7 +41,8 @@ module.exports = env => {
         },
         plugins: [
             new HtmlWebpackPlugin({
-                template: './index.template.ejs',
+                template: './src/index.template.ejs',
+                favicon: "./src/favicon.png",
                 inject: 'body'
             })
         ]

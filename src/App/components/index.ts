@@ -8,6 +8,7 @@ import Error from './Error'
 import About from './About'
 import Sponsor from './Sponsor'
 import Problem from './Problem'
+import ScrollToTop from './ScrollToTop'
 
 export {
     Title,
@@ -19,5 +20,6 @@ export {
     Error,
     About,
     Sponsor,
-    Problem
+    Problem,
+    ScrollToTop
 }

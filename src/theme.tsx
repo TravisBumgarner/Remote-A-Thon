@@ -2,30 +2,29 @@ import styled, { createGlobalStyle, css } from 'styled-components'
 
 const FONT_FAMILY = "'Bellota Text', cursive"
 
-const BACKGROUND_COLOR = '#fff'
-const FOREGROUND_COLOR = '#000'
-const HOVER_COLOR = '#0098d4'
-const ACCENT_COLOR = '#70b5d0'
-
 const GlobalStyle = createGlobalStyle`
+    :root {
+        --background-color: #fff;
+        --foreground-color: #424242;
+        --hover-color: #0098d4;
+        --accent-color: #70b5d0;
+        
+    }
+
     html {
-        background-color: ${BACKGROUND_COLOR};
-        color: ${FOREGROUND_COLOR};
+        background-color: var(--background-color);
+        color: var(--foreground-color);
         font-size: 16px;
         font-family: ${FONT_FAMILY};
     }
     a {
-        color: ${FOREGROUND_COLOR};
+        color: var(--foreground-color);
         &:hover{
-            color: ${HOVER_COLOR}
+            color: var(--hover-color)
         }
     }
 `
 
 export {
-    GlobalStyle,
-    BACKGROUND_COLOR,
-    FOREGROUND_COLOR,
-    HOVER_COLOR,
-    ACCENT_COLOR
+    GlobalStyle
 }

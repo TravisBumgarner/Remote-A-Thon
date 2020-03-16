@@ -12,9 +12,11 @@ import {
     Error,
     About,
     Sponsor,
-    Problem
+    Problem,
+    ScrollToTop
 } from './components'
 import { GlobalStyle } from 'theme'
+
 
 const AppWrapper = styled.div`
     display: flex;
@@ -28,6 +30,7 @@ const App = () => {
         <AppWrapper>
             <GlobalStyle />
             <BrowserRouter>
+                <ScrollToTop />
                 <Title />
                 <Navigation />
                 <Switch>
