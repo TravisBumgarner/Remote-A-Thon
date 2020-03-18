@@ -14,7 +14,7 @@ const Home = () => {
             </Section>
             <Section>
                 <Header size="large">Motivation</Header>
-                <Text>There's a lot going on in the world right now and many of us are facing challenges we've never experienced before. Employees and students are going completely remote. Social events are being canceled. Medical centers are being overwhelmed. These events are the motivation for Let's Pair Online. Many of us find ourselves stranded in our homes with diverse skill sets, hoping to help, but unsure of how to do so.</Text>
+                <Text>There's a lot going on in the world right now and many of us are facing challenges we've never experienced before. Employees and students are going completely remote. Social events are being canceled. Medical centers are being overwhelmed. These events are the motivation for the Let's Pair Online Hackathon. Many of us find ourselves stranded in our homes with diverse skill sets, hoping to help and but are unsure of how to do so. This event will be a starting point for us to come together and contribute our skills to build a stronger community as we face a "new normal".</Text>
             </Section>
             <Section>
                 <Header size="large">Tracks</Header>
