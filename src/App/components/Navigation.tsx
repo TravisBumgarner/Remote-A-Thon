@@ -59,6 +59,7 @@ const Navigation = () => {
                 </Header>
             <Menu>
                 <MenuItem><NavLink activeStyle={activeStyle} to="/schedule">Tentative Schedule</NavLink></MenuItem>
+                <MenuItem><NavLink activeStyle={activeStyle} to="/alltheinfo">All The Info</NavLink></MenuItem>
             </Menu>
         </MenuSection>
 

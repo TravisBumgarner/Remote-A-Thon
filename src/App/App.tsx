@@ -14,7 +14,8 @@ import {
     Sponsor,
     Problem,
     ScrollToTop,
-    Schedule
+    Schedule,
+    AllTheInfo
 } from './components'
 import { GlobalStyle } from 'theme'
 
@@ -59,6 +60,7 @@ const App = () => {
                             <Route path="/sponsor" component={Sponsor} />
                             <Route path="/problem" component={Problem} />
                             <Route path="/schedule" component={Schedule} />
+                            <Route path="/alltheinfo" component={AllTheInfo} />
                             <Route component={Error} />
                         </Switch>
                     </Main>
