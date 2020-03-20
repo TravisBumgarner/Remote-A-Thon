@@ -1,8 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-import { Header, Text, PageWrapper, Section } from 'shared'
+import { Header, Text, PageWrapper, Section, List } from 'shared'
 
 
 const Home = () => {
@@ -17,26 +16,21 @@ const Home = () => {
                 <Text>There's a lot going on in the world right now and many of us are facing challenges we've never experienced before. Employees and students are going completely remote. Social events are being canceled. Medical centers are being overwhelmed. These events are the motivation for the Let's Pair Online Hackathon. Many of us find ourselves stranded in our homes with diverse skill sets, hoping to help and but are unsure of how to do so. This event will be a starting point for us to come together and contribute our skills to build a stronger community as we face a "new normal".</Text>
             </Section>
             <Section>
-                <Header size="large">Tracks</Header>
-                <Text>There will be several tracks that participants can join.</Text>
-
-                <Header size="medium">Track 1: Remote Responsibilities</Header>
-                <Text>Build tools to help those that find themselves working, studying, and living remotely full time.</Text>
-
-                <Header size="medium"> Track 2: Digital Diversion</Header>
-                <Text>Create games and other activities to avoid going stir-crazy.</Text>
-
-                <Header size="medium"> Track 3: Mental Management</Header>
-                <Text>How do we deal with the mental burden of what's going on?</Text>
-
-                <Header size="medium"> Track 4: Household Harmony</Header>
-                <Text>Childcare, spousal relationships, and friendships are all up for consideration. How do we come together?</Text>
-
-                <Header size="medium"> Track 5: Alternate Adventure</Header>
-                <Text>Tackle an issue not addressed in the above tracks.</Text>
+                <Header size="large">Potential Ideas to Hack On</Header>
+                <List>
+                    <List.Item>
+                        A virtual office building where teams in larger companies can have open video call links when they are available for visitors to drop by. Kind of to mimic how people could drop by in real life.
+                    </List.Item>
+                    <List.Item>
+                        Framework for digitizing physical meetups and events.
+                    </List.Item>
+                    <List.Item>
+                        <Text>Don't see your idea above? <Link to="/problem">Submit it here!</Link></Text>
+                    </List.Item>
+                </List>
             </Section>
             <Section>
-                <Header size="large">What this Hackathon Isn't</Header>
+                <Header size="large">This isn't a medical hackathon</Header>
                 <Text>There are many professionals across the world focused on everything from medical aid to supply chain management. There are also other hackathons doing this as well. Perform a search for "COVID hackathon" and look at all the results. People are doing amazing work. That said - this hackathon is not focused on those issues. As noted by the tracks above, it's about how we maintain daily routines with ourselves and our communities throughout this time.</Text>
             </Section>
             <Section>

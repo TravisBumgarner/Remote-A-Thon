@@ -8,14 +8,21 @@ const LargeHeader = styled.h1`
     font-weight: 700;
     margin: 1em 0 0.25em 0;
     font-size: 2.5em;
+`
+
+const TitleWrapper = styled.div`
+    width: 100%;
+    max-width: 800px;
     text-align: center;
 `
 
 const Title = () => {
-    return <div>
-        <LargeHeader>Let's Pair Online</LargeHeader>
-        <Text size="large">A remote hackathon focused on addressing the new daily challenges we face due to COVID-19.</Text>
-    </div>
+    return <TitleWrapper>
+        <LargeHeader>Remote Responsibilities Hackathon</LargeHeader>
+        <Text size="large">
+            A remote hackathon focused on building tools to help those that find themselves working, studying, and living remotely full time.
+        </Text>
+    </TitleWrapper>
 }
 
 export default Title

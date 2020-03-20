@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 import { Header, Text, PageWrapper, Section } from 'shared'
@@ -28,6 +27,10 @@ const questions = [
     {
         question: "Do time zones matter?",
         answer: "Mostly no. Some of the events happening throughout the duration of the hackathon will be live but will also be recorded to share with others who might be busy or asleep when they happen."
+    },
+    {
+        question: "What happened to the tracks on the home page?",
+        answer: "To offer a better experience for everyone involved - we decided to focus on one challenge at a time. We will try setup reoccurring hackathons to tackle issues one at a time. Future hackathons could include Digital Diversion (having fun online), Mental Management (how to take care of yourself), Household Harmony (How to take care of your roommates, family, and friends)."
     },
 ]
 
