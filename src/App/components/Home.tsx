@@ -35,7 +35,8 @@ const Home = () => {
             </Section>
             <Section>
                 <Header size="large">Schedule</Header>
-                <Text>Tentatively March 30th, 2020 to April 5th, 2020 with the majority of the work and activities taking place between Friday and Sunday.</Text>
+                <Text>Friday April 3th, 2020 - Sunday April 5th, 2020</Text>
+                <Text>Schedule of events coming soon!</Text>
             </Section>
             <Section>
                 <Header size="large">Location</Header>
