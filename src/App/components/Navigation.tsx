@@ -46,7 +46,7 @@ const Navigation = () => {
                 </Header>
             <Menu>
                 <MenuItem><a target="_blank" href="https://join.slack.com/t/lets-pair-online/shared_invite/zt-cmfomldv-F6mtvfedSVtYwlKusjIRaw">Join us On Slack <FaSlack /></a></MenuItem>
-                <MenuItem><NavLink activeStyle={activeStyle} to="/participate">Participate</NavLink></MenuItem>
+                <MenuItem><a target="_blank" href="https://hackaday.io/hackathon/170518-remote-responsibilities-hackathon">Participate</a></MenuItem>
                 <MenuItem><NavLink activeStyle={activeStyle} to="/problem">Submit a Problem</NavLink></MenuItem>
                 <MenuItem><NavLink activeStyle={activeStyle} to="/sponsor">Sponsor</NavLink></MenuItem>
                 <MenuItem><a target="_blank" href="https://www.gofundme.com/f/let039s-pair-online">Donate</a></MenuItem>

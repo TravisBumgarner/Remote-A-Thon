@@ -7,7 +7,6 @@ import {
     Navigation,
     Home,
     Contact,
-    Participate,
     Questions,
     Error,
     About,
@@ -54,7 +53,6 @@ const App = () => {
                         <Switch>
                             <Route exact path="/" component={Home} />
                             <Route path="/contact" component={Contact} />
-                            <Route path="/participate" component={Participate} />
                             <Route path="/questions" component={Questions} />
                             <Route path="/about" component={About} />
                             <Route path="/sponsor" component={Sponsor} />

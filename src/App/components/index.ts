@@ -2,7 +2,6 @@ import Title from './Title'
 import Navigation from './Navigation'
 import Home from './Home'
 import Contact from './Contact'
-import Participate from './Participate'
 import Questions from './Questions'
 import Error from './Error'
 import About from './About'
@@ -17,7 +16,6 @@ export {
     Navigation,
     Home,
     Contact,
-    Participate,
     Questions,
     Error,
     About,

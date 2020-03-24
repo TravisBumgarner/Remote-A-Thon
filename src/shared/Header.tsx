@@ -4,14 +4,12 @@ import React, { Component } from 'react'
 import styled, { css } from 'styled-components'
 
 const LargeHeader = styled.h2`
-    text-transform: uppercase;
     font-weight: 700;
     margin: 0.25em 0 0.5em 0;
     font-size: 2em;
 `
 
 const MediumHeader = styled.h3`
-    text-transform: uppercase;
     font-weight: 400;
     margin: 1em 0 0.5em 0;
     font-size: 1.5em;
@@ -20,7 +18,7 @@ const MediumHeader = styled.h3`
 const SmallHeader = styled.h4`
     font-weight: 400;
     margin: 1em 0 0.5em 0;
-    font-size 1.25em;
+    font-size: 1.25em;
 `
 
 type Props = {

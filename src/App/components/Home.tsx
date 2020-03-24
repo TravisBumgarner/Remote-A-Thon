@@ -17,17 +17,38 @@ const Home = () => {
             </Section>
             <Section>
                 <Header size="large">Potential Ideas to Hack On</Header>
+
+                <Header size="small">
+                    Problem: How can we engender the kind of spontaneous connection and collaboration that takes place in the office while everyone is remote working?
+                </Header>
                 <List>
                     <List.Item>
-                        A virtual office building where teams in larger companies can have open video call links when they are available for visitors to drop by. Kind of to mimic how people could drop by in real life.
+                        Create a virtual water cooler space that employees can join when they need a break. Co-workers can choose to be notified when a friend is at the water cooler.
                     </List.Item>
                     <List.Item>
-                        Framework for digitizing physical meetups and events.
+                        Use speech-to-text and natural language processing to create real-time word clouds from video conference calls
                     </List.Item>
                     <List.Item>
-                        <Text>Don't see your idea above? <Link to="/problem">Submit it here!</Link></Text>
+                        Build tools to simplify hosting of virtual meetups and enable attendees to find others in their meetup group with common interests
+                    </List.Item>
+                    <List.Item>
+                        Make a Slack integration that randomly pairs members in a channel and gives them a conversational prompt so people can connect with someone they might not otherwise have a chance to interact with and learn something about them
                     </List.Item>
                 </List>
+
+                <Header size="small">
+                    Problem: With fewer opportunities to get up and walk around employees could become less physically active. What could be done to encourage active, healthy habits when working from home?
+                </Header>
+                <List>
+                    <List.Item>Aggregate online exercise resources and create a tool that allows people to find and build an at-home fitness routine from multiple sources.</List.Item>
+                    <List.Item>Build a dashboard that allows companies to set office-wide fitness goals. This could have a leaderboard and track individual as well as collective progress.</List.Item>
+                    <List.Item>Create a Slack integration that lets people share their fitness goal to a channel and update when they’ve made progress on that goal. Creates a sense of accountability and channel members can encourage each other to stay on track.</List.Item>
+                </List>
+
+                <Header size="small">
+                    Don't see your problem listed or want to work on your own problem? <Link to="/problem">Click here to submit your idea!</Link>
+                </Header>
+
             </Section>
             <Section>
                 <Header size="large">This isn't a medical hackathon</Header>
@@ -50,7 +71,7 @@ const Home = () => {
                 <Header size="large">Don't see an answer your question?</Header>
                 <Text><Link to="/sponsor">Click here to submit a question.</Link></Text>
             </Section>
-        </PageWrapper>
+        </PageWrapper >
     )
 }
 

@@ -44,4 +44,4 @@ ReactDOM.render(
         </BrowserRouter>
     </SentryWrapper>,
     document.getElementById('root')
-)
+)  
