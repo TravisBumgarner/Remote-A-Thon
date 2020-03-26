@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <PageWrapper>
             <Section>
-                <Header size="large">Hey!</Header>
-                <Text>This site is rapidly developing. Check back Often or join us on <a target="_blank" href="https://join.slack.com/t/lets-pair-online/shared_invite/zt-cmfomldv-F6mtvfedSVtYwlKusjIRaw">Slack</a> to keep up to date!</Text>
+                <Header size="large">Welcome!</Header>
+                <Text>Com join us on <a target="_blank" href="https://join.slack.com/t/lets-pair-online/shared_invite/zt-cmfomldv-F6mtvfedSVtYwlKusjIRaw">Slack</a>!</Text>
             </Section>
             <Section>
                 <Header size="large">Motivation</Header>
