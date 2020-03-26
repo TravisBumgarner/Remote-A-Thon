@@ -16,12 +16,6 @@ const About = () => {
     return (
         <PageWrapper>
             <Section>
-                <Header size="large">Get Involved!</Header>
-                <Text>
-                    Interested in becoming an organizer? <Link to="/participate">Click here.</Link>
-                </Text>
-            </Section>
-            <Section>
                 <Header size="large">Travis Bumgarner</Header>
                 <InlineImage src={travis} />
                 <Text>

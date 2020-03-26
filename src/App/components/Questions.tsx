@@ -9,20 +9,12 @@ const questions = [
         answer: "No! You could do anything from building a website to creating a business plan."
     },
     {
-        question: "Will there be prizes?",
-        answer: "The complete answer is to be determined. Travis Bumgarner will be donating $250 towards the prize pool. Click on the Sponsor link or donate above to contribute to the pool!"
-    },
-    {
-        question: "Who will judge the competition?",
-        answer: "TBD"
-    },
-    {
-        question: "How will winners be selected?",
-        answer: "TBD - Probably a combination of judges and audience favorites."
+        question: "Will there be judging and prizes?",
+        answer: "This is an informal hackathon. No judges or prizes - just presentations."
     },
     {
         question: "How will projects be presented?",
-        answer: "To give a chance to everyone involved across all the timezones, we'll most likely have video uploads."
+        answer: "Presentations will happen Sunday afternoon/evening on Zoom. For those that cannot attend, there is a deadline on the schedule for when video recordings must be submitted."
     },
     {
         question: "Do time zones matter?",

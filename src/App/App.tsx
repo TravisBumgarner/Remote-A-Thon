@@ -10,7 +10,6 @@ import {
     Questions,
     Error,
     About,
-    Sponsor,
     Problem,
     ScrollToTop,
     Schedule,
@@ -55,7 +54,6 @@ const App = () => {
                             <Route path="/contact" component={Contact} />
                             <Route path="/questions" component={Questions} />
                             <Route path="/about" component={About} />
-                            <Route path="/sponsor" component={Sponsor} />
                             <Route path="/problem" component={Problem} />
                             <Route path="/schedule" component={Schedule} />
                             <Route path="/alltheinfo" component={AllTheInfo} />

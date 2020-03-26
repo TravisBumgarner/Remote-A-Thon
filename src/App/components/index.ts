@@ -5,7 +5,6 @@ import Contact from './Contact'
 import Questions from './Questions'
 import Error from './Error'
 import About from './About'
-import Sponsor from './Sponsor'
 import Problem from './Problem'
 import ScrollToTop from './ScrollToTop'
 import Schedule from './Schedule'
@@ -19,7 +18,6 @@ export {
     Questions,
     Error,
     About,
-    Sponsor,
     Problem,
     ScrollToTop,
     Schedule,
