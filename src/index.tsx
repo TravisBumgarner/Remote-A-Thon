@@ -3,9 +3,14 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import * as Sentry from '@sentry/browser'
 
+import { Error } from './App/components'
 import App from './App'
 
-class ErrorWrapper extends Component {
+Sentry.init({
+    dsn: 'https://99cf7d1bca5843b4848a969de4aaf975@sentry.io/5169383'
+})
+
+class SentryWrapper extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -25,7 +30,7 @@ class ErrorWrapper extends Component {
 
     render() {
         if (this.state.error) {
-            return <p>Whoops - Something went wrong.</p>
+            return <Error />
         } else {
             return this.props.children
         }
@@ -33,10 +38,10 @@ class ErrorWrapper extends Component {
 }
 
 ReactDOM.render(
-    <ErrorWrapper>
+    <SentryWrapper>
         <BrowserRouter>
             <App />
         </BrowserRouter>
-    </ErrorWrapper>,
+    </SentryWrapper>,
     document.getElementById('root')
 )  
