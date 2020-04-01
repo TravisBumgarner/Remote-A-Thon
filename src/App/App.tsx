@@ -13,7 +13,8 @@ import {
     Problem,
     ScrollToTop,
     Schedule,
-    AllTheInfo
+    AllTheInfo,
+    Participate
 } from './components'
 import { GlobalStyle } from 'theme'
 
@@ -57,6 +58,7 @@ const App = () => {
                             <Route path="/problem" component={Problem} />
                             <Route path="/schedule" component={Schedule} />
                             <Route path="/alltheinfo" component={AllTheInfo} />
+                            <Route path="/participate" component={Participate} />
                             <Route component={Error} />
                         </Switch>
                     </Main>

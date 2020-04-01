@@ -9,6 +9,7 @@ import Problem from './Problem'
 import ScrollToTop from './ScrollToTop'
 import Schedule from './Schedule'
 import AllTheInfo from './AllTheInfo'
+import Participate from './Participate'
 
 export {
     Title,
@@ -21,5 +22,6 @@ export {
     Problem,
     ScrollToTop,
     Schedule,
-    AllTheInfo
+    AllTheInfo,
+    Participate
 }
